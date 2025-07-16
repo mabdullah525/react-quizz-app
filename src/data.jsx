@@ -7,13 +7,14 @@ const questions = [
         d: "An operating system",
         ans: "Js is Programing language"
     },
+
     {
-        q: "What is React?",
-        a: "A JavaScript library for building user interfaces",
-        b: "A CSS framework",
-        c: "A database",
-        d: "A web server",
-        ans: "A JavaScript library for building user interfaces"
+        q: "Who created React?",
+        a: "Google",
+        b: "Microsoft",
+        c: "Facebook",
+        d: "Amazon",
+        ans: "Facebook"
     },
     {
         q: "What does JSX stand for?",
@@ -56,12 +57,12 @@ const questions = [
         ans: "ReactDOM.render()"
     },
     {
-        q: "What is a component in React?",
-        a: "A database table",
-        b: "A function or class that returns UI elements",
-        c: "A CSS style",
-        d: "A type of server",
-        ans: "A function or class that returns UI elements"
+        q: "Who created ReactJS?",
+        a: "Dan Abramov",
+        b: "Ryan Dahl",
+        c: "Jordan Walke",
+        d: "Brendan Eich",
+        ans: "Jordan Walke"
     },
     {
         q: "Which operator is used to spread array elements in JavaScript?",
