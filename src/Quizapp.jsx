@@ -2,7 +2,7 @@ import React from 'react'
 
 const Quizapp = () => {
     return (
-        <div>Quizapp</div>
+        <div>Quizapamx,ap</div>
     )
 }
 
