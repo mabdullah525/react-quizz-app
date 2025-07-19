@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+
+.quiz-bg {
+  @apply min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-slate-800 to-gray-700 p-4;
+}
+
+.quiz-card {
+  @apply w-full max-w-xl bg-gray-800 text-white rounded-2xl shadow-2xl p-8;
+}
+
+.quiz-question h1 {
+  @apply text-2xl md:text-3xl font-bold text-white mb-6;
+}
+
+.quiz-options {
+  @apply space-y-4;
+}
+
+.quiz-option {
+  @apply flex items-center p-4 bg-gray-700 rounded-xl cursor-pointer hover:bg-gray-600 transition;
+}
+
+.quiz-option input[type="radio"] {
+  @apply accent-indigo-500 mr-4 w-5 h-5;
+}
+
+.quiz-option span {
+  @apply text-white font-medium;
+}
+
+.quiz-button {
+  @apply mt-8 text-center;
+}
+
+.quiz-button button {
+  @apply bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded-full shadow-md transition;
+}
