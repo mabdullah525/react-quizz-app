@@ -1,4 +1,4 @@
-const questions = [
+export const Data = [
     {
         q: "What is JavaScript?",
         a: "Js is Programing language",
