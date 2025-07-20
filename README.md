@@ -22,7 +22,7 @@ A simple and interactive quiz application built using **React** and **Tailwind C
 ---
 
 # 1. Clone the repository
-git clone https://github.com/yourusername/quiz-app.git
+git clone [https://github.com/yourusername/quiz-app.git](https://react-quizz-app-abdullah.netlify.app)
 
 # 2. Navigate to the project directory
 cd quiz-app
