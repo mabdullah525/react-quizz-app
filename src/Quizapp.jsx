@@ -15,6 +15,12 @@ const Quizapp = () => {
 
         setIndex(index + 1);
     }
+    const handleInput = (e) => {
+        let chooseValue = e.target.value;
+        console.log(chooseValue);
+
+
+    }
     return (
         <div className="quiz-bg">
             <div className="quiz-card">
@@ -24,22 +30,22 @@ const Quizapp = () => {
 
                 <div className="quiz-options">
                     <label className="quiz-option">
-                        <input type="radio" name="option" onChange={handleInput} />
+                        <input type="radio" name="option" onChange={handleInput} className='checkedValue' value={data[index].a}/>
                         <span>A : {data[index].a}</span>
                     </label>
 
                     <label className="quiz-option">
-                        <input type="radio" name="option" onChange={handleInput} />
+                        <input type="radio" name="option" onChange={handleInput} className='checkedValue' value={data[index].b}/>
                         <span>B : {data[index].b}</span>
                     </label>
 
                     <label className="quiz-option">
-                        <input type="radio" name="option" onChange={handleInput} />
+                        <input type="radio" name="option" onChange={handleInput} className='checkedValue' value={data[index].c}/>
                         <span>C : {data[index].c}</span>
                     </label>
 
                     <label className="quiz-option">
-                        <input type="radio" name="option" onChange={handleInput} />
+                        <input type="radio" name="option" onChange={handleInput} className='checkedValue' value={data[index].d}/>
                         <span>D : {data[index].d}</span>
                     </label>
                 </div>
