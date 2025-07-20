@@ -9,16 +9,19 @@ const Quizapp = () => {
     const [score, setScore] = useState(0);
     console.log(data);
     const next = () => {
-        if (index >= data.length - 1) {
+        if (index < data.length - 1) {
             setIndex(index + 1);
-        }else {
-            document.querySelector(".score").innerHTML = `<h1 class="score">Your Score is : ${score}</h1>`;
         }
+
+
         const checked = document.querySelectorAll(".checkedValue");
         checked.forEach((curVal) => {
             curVal.checked = false;
         });
+
     }
+
+
 
 
     const handleInput = (e) => {
@@ -61,7 +64,9 @@ const Quizapp = () => {
                     </label>
                 </div>
 
-                <div className="score"></div>
+                <div className='score'>
+
+                </div>
 
                 <div className="quiz-button">
                     <button onClick={next}>Next</button>
